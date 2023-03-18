@@ -1,0 +1,2 @@
+## include/
+You should place your project's public header files (i.e. the header files that you want the user's of your project to able to include) in a subfolder of "include/". The name of the subfolder should correspond to your project's name. The "include/" folder is automatically added to the header search paths, so if you create a master header file for your project named "projectname.h" and place it in "include/projectname/", then you will be able to include it from your source code using "#include ".

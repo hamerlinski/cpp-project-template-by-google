@@ -1,0 +1,2 @@
+## src/
+You should place your source files in this folder or in a subfolder of this folder. The "CMakeLists.txt" file in this directory will automatically compile all sources in the folder into a single executable. You may need to edit this "CMakeLists.txt" file, so that the appropriate build targets are generated (e.g. if you have multiple different executable or library modules, so all sources should not be built into a single target).
